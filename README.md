@@ -18,7 +18,9 @@ pip install flash-attn --no-build-isolation
 
 ## Inferece 
 
-You can download the the ckpt from here
+You can download the ckpt from [here](https://scenegan.s3.us-east-2.amazonaws.com/llava-score-ckpt.zip)
+
+
 
 ```
 python llava_score_evaluator.py  --image_file PATH_TO_IMAGE  --caption CAPTION_OF_IMAGE
